@@ -166,5 +166,5 @@ for details in our_focus_dictionary: #concatenating the names
     full_name = f"{details['name']['first']} {details['name']['last']}"
     full_names.append(full_name)
 
-print(full_names)
+print(f"Full_names:  {full_names}")
 
